@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <cs50.h>
+
+
+int splittwo_sum(int x)
+{
+
+    if(x > 9 )
+    {
+        sum_split=x%10
+        sum_split1=(x-sum_split)/10 + sum_split
+        return(sum_split1)
+    }
+    else
+    {
+        return(x)
+    }
+
+
+
+}
